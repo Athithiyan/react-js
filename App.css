@@ -93,3 +93,22 @@ html, body{
     margin-left: 14px;
     margin-top: 1em;
 }
+
+#page-numbers{
+  padding: 1% 50%;
+  cursor:pointer;
+  display:inline-block
+}
+.pagination li{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  color: black;
+  border: 1px solid #5e6871;
+}
+
+.pagination li:hover:not(.active) {background-color: #5e6871;}
